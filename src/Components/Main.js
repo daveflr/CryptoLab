@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import NavBar from "./NavBar";
-import Input from "./Input";
+import Encoder from "./Encoder";
 
 class Main extends Component {
     render() {
@@ -8,7 +8,7 @@ class Main extends Component {
             <div>
                 <NavBar/>
                 <div className="container">
-                    <Input/>
+                    <Encoder/>
                 </div>
             </div>
 
