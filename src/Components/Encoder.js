@@ -10,7 +10,7 @@ class Encoder extends Component {
             original: "",
             result: "",
             method: "",
-            options: ["Binary", "ASCII"]
+            options: ["MD5", "SHA-1", "SHA-256", "SHA-512", "Malespin"]
         };
         this.encode = this.encode.bind(this);
         this.decode = this.decode.bind(this);
@@ -18,8 +18,6 @@ class Encoder extends Component {
     }
 
     async encode(text, method) { //Encode
-        // e.persist();
-        console.log(text, method);
         if (text === null || text === "") {
             this.setState({
                 original: '',
@@ -35,7 +33,6 @@ class Encoder extends Component {
                 text: text
             }
         });
-        console.log(response);
         this.setState({
             original: text,
             result: response.data.text
@@ -43,8 +40,6 @@ class Encoder extends Component {
     }
 
     async decode(text, method) { //Decode
-        // e.persist();
-        console.log(text, method);
         if (text === null || text === "") {
             this.setState({
                 original: '',
@@ -60,7 +55,6 @@ class Encoder extends Component {
                 text: text,
             }
         });
-        console.log(response);
         this.setState((state) => ({
             result: text,
             original: response.data.text
@@ -68,9 +62,12 @@ class Encoder extends Component {
     }
 
     onMethodChange(e) {
-        this.setState({
-            method: e.target.value
-        })
+        e.persist();
+        this.encode(this.state.original, e.target.value).then(r => {
+            this.setState({
+                method: e.target.value
+            });
+        });
     }
 
     componentDidMount() {
@@ -95,7 +92,7 @@ class Encoder extends Component {
                         <div className="select">
                             <select onChange={this.onMethodChange}>
                                 {this.state.options.map(e => {
-                                    return <option key={e}>{e}</option>
+                                    return <option key={e} value={e}>{e}</option>
                                 })}
                             </select>
                         </div>

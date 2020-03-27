@@ -16,7 +16,7 @@ class Input extends Component {
             <div className="field">
                 <div className="control">
                         <textarea onChange={this.onTextChange}
-                                  defaultValue={text}
+                                  value={text}
                                   className="textarea is-primary"
                                   placeholder="Texto original"/>
 
