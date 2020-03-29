@@ -27,7 +27,7 @@ class Encoder extends Component {
         }
         let response = await axios({
             method: 'get',
-            url: 'http://127.0.0.1:5000/encode',
+            url: 'https://whispering-stream-25026.herokuapp.com/encode',
             params: {
                 method: method,
                 text: text
@@ -49,7 +49,7 @@ class Encoder extends Component {
         }
         let response = await axios({
             method: 'get',
-            url: 'http://127.0.0.1:5000/decode',
+            url: 'https://whispering-stream-25026.herokuapp.com/decode',
             params: {
                 method: method,
                 text: text,
