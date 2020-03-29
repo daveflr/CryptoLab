@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/daveflr.github.io/CryptoLab/static/css/main.062c924b.chunk.css",
+    "main.js": "/daveflr.github.io/CryptoLab/static/js/main.e3781f96.chunk.js",
+    "main.js.map": "/daveflr.github.io/CryptoLab/static/js/main.e3781f96.chunk.js.map",
+    "runtime-main.js": "/daveflr.github.io/CryptoLab/static/js/runtime-main.6a0a213f.js",
+    "runtime-main.js.map": "/daveflr.github.io/CryptoLab/static/js/runtime-main.6a0a213f.js.map",
+    "static/css/2.79ce9370.chunk.css": "/daveflr.github.io/CryptoLab/static/css/2.79ce9370.chunk.css",
+    "static/js/2.38b5d0cc.chunk.js": "/daveflr.github.io/CryptoLab/static/js/2.38b5d0cc.chunk.js",
+    "static/js/2.38b5d0cc.chunk.js.map": "/daveflr.github.io/CryptoLab/static/js/2.38b5d0cc.chunk.js.map",
+    "index.html": "/daveflr.github.io/CryptoLab/index.html",
+    "precache-manifest.a3e0fc1fdadafae4645e51b161bda1ae.js": "/daveflr.github.io/CryptoLab/precache-manifest.a3e0fc1fdadafae4645e51b161bda1ae.js",
+    "service-worker.js": "/daveflr.github.io/CryptoLab/service-worker.js",
+    "static/css/2.79ce9370.chunk.css.map": "/daveflr.github.io/CryptoLab/static/css/2.79ce9370.chunk.css.map",
+    "static/css/main.062c924b.chunk.css.map": "/daveflr.github.io/CryptoLab/static/css/main.062c924b.chunk.css.map",
+    "static/js/2.38b5d0cc.chunk.js.LICENSE.txt": "/daveflr.github.io/CryptoLab/static/js/2.38b5d0cc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a0a213f.js",
+    "static/css/2.79ce9370.chunk.css",
+    "static/js/2.38b5d0cc.chunk.js",
+    "static/css/main.062c924b.chunk.css",
+    "static/js/main.e3781f96.chunk.js"
+  ]
+}
