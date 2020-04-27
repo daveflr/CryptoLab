@@ -25,7 +25,7 @@ class Encoder extends Component {
             });
             return;
         }
-        let response = axios({
+        let response = await axios({
             method: 'get',
             url: 'https://whispering-stream-25026.herokuapp.com/encode',
             params: {
@@ -47,7 +47,7 @@ class Encoder extends Component {
             });
             return;
         }
-        let response = axios({
+        let response = await axios({
             method: 'get',
             url: 'https://whispering-stream-25026.herokuapp.com/decode',
             params: {
