@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8970472edc28482441533fdb4942a10",
+    "revision": "bf7b0124eb05a5f70e9db42a8bbf5e5e",
     "url": "/CryptoLab/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CryptoLab/static/css/2.79ce9370.chunk.css"
   },
   {
-    "revision": "383c6fb58fce609b7b1c",
+    "revision": "b72a8561c3a0457c078c",
     "url": "/CryptoLab/static/css/main.062c924b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CryptoLab/static/js/2.38b5d0cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "383c6fb58fce609b7b1c",
-    "url": "/CryptoLab/static/js/main.864dc959.chunk.js"
+    "revision": "b72a8561c3a0457c078c",
+    "url": "/CryptoLab/static/js/main.5b93fea0.chunk.js"
   },
   {
     "revision": "84661c8fcdb2ada127cc",
