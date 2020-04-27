@@ -10,7 +10,7 @@ class Encoder extends Component {
             original: "",
             result: "",
             method: "",
-            options: ["MD5", "SHA-1", "SHA-256", "SHA-512", "Malespin"]
+            options: ["MD5", "SHA-1", "SHA-256", "SHA-512", "Malespin", "XCrypt"]
         };
         this.encode = this.encode.bind(this);
         this.decode = this.decode.bind(this);
@@ -25,7 +25,7 @@ class Encoder extends Component {
             });
             return;
         }
-        let response = await axios({
+        let response = axios({
             method: 'get',
             url: 'https://whispering-stream-25026.herokuapp.com/encode',
             params: {
@@ -47,7 +47,7 @@ class Encoder extends Component {
             });
             return;
         }
-        let response = await axios({
+        let response = axios({
             method: 'get',
             url: 'https://whispering-stream-25026.herokuapp.com/decode',
             params: {
